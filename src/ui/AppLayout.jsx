@@ -13,7 +13,7 @@ function AppLayout() {
       {isLoading && <SpinLoader />}
       <Header />
 
-      <div className="mt-10 overflow-y-scroll">
+      <div className="overflow-y-scroll">
         <main className="max-w-3x mx-auto">
           <Outlet />
         </main>
